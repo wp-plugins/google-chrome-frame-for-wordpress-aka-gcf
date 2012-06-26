@@ -49,7 +49,9 @@ If you're a system administrator, see the Chrome Frame Administrator's Guide for
 
 Join our discussion group to provide feedback. http://groups.google.com/group/google-chrome-frame
 
+== Screenshots ==
 
+1. This screen will be shown to old Internet Explorer users, clicking enable Chrome frame will enable chrome frame and redirect them to your site.
 
 
 == Installation ==
