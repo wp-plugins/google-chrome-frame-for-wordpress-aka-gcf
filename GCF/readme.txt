@@ -16,13 +16,30 @@ Google Chrome frame for Wordpress will prompt your Internet Explorer users to in
 Enjoy the power of The Google Chrome V-8 Webkit Engine on old Internet Explorer browsers (version 6+).
 Google Chrome frame for Wordpress will prompt your Internet Explorer users to install the Google Chrome Frame add-on (automatically redirects back to your site when finished), this will let your old Internet Explorer users benefit from the latest HTML5 standards as if they were running Google Chrome or other advances webkit browser.
 
+
+[youtube http://www.youtube.com/watch?v=sjW0Bchdj-w]
+
+
 -- Make cutting edge web sites without worring they will break in Old Internet Explorer.
+
 -- Enhances your website with new HTML5 technologies not supported in Internet Explorer.
+
 -- Supported from Internet Explorer 6+ 
+
+-- Suggests Internet Explorer Users to enable Google chrome frame on the browser in a lightbox.
+
+-- Installation wizard  lightbox in a over 25+ Langauges. 
+
 -- Automaticlly Redirects to your site when installation is done.
+
 -- Multiple languages wizard. 
+
 -- Easy to use.
--- Injecting the Chrome Frame Meta Tags to the page will be updated in the next plugin version. (in the very near future)
+
+-- Adds the Chrome Frame requierd META DATA to the site.
+
+-- no need for extra code to enable the Google Chrome Frame 
+
 -- More features coming soon.
 
 

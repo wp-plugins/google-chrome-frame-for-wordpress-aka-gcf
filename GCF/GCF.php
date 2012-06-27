@@ -3,7 +3,7 @@
 Plugin Name: Google Chrome Frame plugin for wordpress
 Plugin URI: http://www.kankod.com/
 Description: Enjoy the power of The Google Chrome V-8 Webkit Engine on old Internet Explorer browsers (version 6+). Google Chrome frame for Wordpress will prompt your Internet Explorer users to install the Google Chrome Frame add-on (automatically redirects back to your site when finished), this will let your old Internet Explorer users to benefit from the latest HTML5 standards as if they were running Google Chrome or other advances webkit browser.  
-Version: 0.11
+Version: 0.12
 Author: kankod.com
 */
 
@@ -11,6 +11,11 @@ if( !is_admin() ) {
 	add_action('wp_print_scripts', 'GCF_filter_footer');
 }
 add_action('admin_menu', 'GCF_config_page');
+add_action('wp_head', 'gcf_add_metadata', 0);
+
+function gcf_add_metadata(){
+	echo '<meta http-equiv="X-UA-Compatible" content="chrome=1"/>';
+}
 
 function GCF_filter_footer() {
 	$enabled = get_option('GCF_EN');
